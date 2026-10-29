@@ -1,4 +1,4 @@
-# Claude Clipper Editor (Claude Short Form Editor v2)
+# Claude Clipper Editor
 
 This repo turns ANY video (a YouTube/web link or a local file, long or short) into finished 1080x1920 reels, autonomously.
 

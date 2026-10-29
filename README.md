@@ -4,8 +4,10 @@
 40-second selfie video: Claude Code finds the best moments, cuts them to 9:16 around the speaker and edits them into
 premium reels with captions, motion graphics, music and sound design. One folder, one prompt.
 
-(This is v2 of [Claude Short Form Editor](https://github.com/Plextrang/Claude-Short-Form-Editor), merged with
-[Claude Video Clipper](https://github.com/Plextrang/Claude-Video-Clipper).)
+Claude Clipper Editor is a separate, standalone tool. It combines a few pieces of
+[Claude Video Clipper](https://github.com/Plextrang/Claude-Video-Clipper) (finding, cutting and reframing the best
+moments) with a few pieces of [Claude Short Form Editor](https://github.com/Plextrang/Claude-Short-Form-Editor) (the
+editing engine). Both of those stay as they are and keep working on their own.
 
 > **Needs a paid Claude plan.** Runs inside [Claude Code](https://claude.com/claude-code) (desktop app or CLI). The fast
 > `clip` style works on Pro. The premium styles (`podcast`, `talking-head`) are long, autonomous sessions (~10-20 min and
