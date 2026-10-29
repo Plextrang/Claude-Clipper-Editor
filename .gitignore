@@ -1,0 +1,71 @@
+# --- client material: creative directions, sound packs, generated styles, examples. NEVER commit it.
+# Only the ready-made styles in styles/ ship. Back up your clients/ folder yourself (it exists only on your machine).
+clients/*
+!clients/_template/
+work/active_style.json
+remotion/src/data/style_theme.ts
+# generated inside styles at onboarding / first use
+styles/*/board/
+**/_catalogue/
+
+# --- your videos and everything generated from them (never commit footage)
+input/*
+!input/.gitkeep
+!input/music/
+input/music/*
+!input/music/.gitkeep
+output/*
+!output/.gitkeep
+deliverables/*
+!deliverables/.gitkeep
+archive/*
+!archive/.gitkeep
+remotion/out/
+remotion/public/*
+!remotion/public/.gitkeep
+remotion/src/scenes/*
+!remotion/src/scenes/.gitkeep
+remotion/src/preview/*
+!remotion/src/preview/.gitkeep
+remotion/src/data/edit.ts
+remotion/src/data/words.json
+remotion/src/data/scenes.ts
+remotion/src/data/palette.ts
+clipper/remotion/public/clip*.mp4
+clipper/remotion/out/
+work/audio/
+work/frames/
+work/music/
+work/music_audition/
+work/broll/
+work/*.log
+work/run_state.json
+work/runs/
+work/plan/*
+!work/plan/CRAFT_DEFAULTS.md
+!work/plan/ENGINE.md
+work/transcript/*
+
+# --- installed tools (recreated by the first-run setup: python install.py)
+.venv/
+remotion/node_modules/
+clipper/remotion/node_modules/
+work/pylibs/
+work/brand_cache/
+work/hf_cache/
+.cache/
+__pycache__/
+*.pyc
+
+# --- secrets, cookies
+.env
+*.cookies
+cookies*.txt
+
+# --- OS / editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+*.stackdump
+.vscode/
+.idea/

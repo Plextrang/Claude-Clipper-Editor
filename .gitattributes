@@ -1,0 +1,8 @@
+# Keep LF line endings everywhere: bash scripts (finalize.sh) and workflow scripts break with CRLF.
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.pdf binary
+*.mp3 binary
+*.wav binary
+*.mp4 binary

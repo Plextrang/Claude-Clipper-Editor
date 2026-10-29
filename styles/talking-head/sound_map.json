@@ -1,0 +1,138 @@
+{
+ "_doc": "Event -> sound files for the reel kit (paths inside the active sound pack, default assets/sfx/pack/). family = stem routing (whoosh | texture | riser | hit). Files rotate for variety. Gains are the starting levels of STYLE_GUIDE section 3; mix.py keeps every SFX under the voice.",
+ "open": {
+  "family": "whoosh",
+  "gainDb": -13,
+  "files": [
+   "whoosh/whoosh_air.wav"
+  ]
+ },
+ "hook": {
+  "family": "texture",
+  "gainDb": -10,
+  "files": [
+   "textures/pops/pop_bubble.wav"
+  ]
+ },
+ "hook_out": {
+  "family": "whoosh",
+  "gainDb": -15,
+  "files": [
+   "whoosh/whoosh_swish_01.wav"
+  ]
+ },
+ "punch": {
+  "family": "whoosh",
+  "gainDb": -15,
+  "files": [
+   "whoosh/whoosh_swish_02.wav",
+   "whoosh/whoosh_swish_01.wav"
+  ]
+ },
+ "nametag": {
+  "family": "texture",
+  "gainDb": -12,
+  "files": [
+   "textures/ui/ui_switch.wav"
+  ]
+ },
+ "card_in": {
+  "family": "whoosh",
+  "gainDb": -13,
+  "files": [
+   "whoosh/whoosh_soft.wav",
+   "whoosh/whoosh_pan.wav"
+  ]
+ },
+ "card_pop": {
+  "family": "texture",
+  "gainDb": -9,
+  "files": [
+   "textures/pops/pop_drop.wav",
+   "textures/ui/ui_click.wav"
+  ]
+ },
+ "count": {
+  "family": "texture",
+  "gainDb": -10,
+  "files": [
+   "textures/ui/ui_notify.wav"
+  ]
+ },
+ "list_item": {
+  "family": "texture",
+  "gainDb": -11,
+  "files": [
+   "textures/ui/ui_toggle.wav",
+   "textures/pops/pop_soft_01.wav"
+  ]
+ },
+ "card_out": {
+  "family": "whoosh",
+  "gainDb": -16,
+  "files": [
+   "whoosh/whoosh_swish_02.wav"
+  ]
+ },
+ "riser": {
+  "family": "riser",
+  "gainDb": -10,
+  "files": [
+   "risers and hits/riser_medium.wav",
+   "risers and hits/riser_short.wav"
+  ]
+ },
+ "hit": {
+  "family": "hit",
+  "gainDb": -9,
+  "files": [
+   "risers and hits/hit_sub_tight.wav",
+   "risers and hits/hit_punch_soft.wav"
+  ]
+ },
+ "slam_in": {
+  "family": "whoosh",
+  "gainDb": -14,
+  "files": [
+   "whoosh/whoosh_air.wav"
+  ]
+ },
+ "slam_out": {
+  "family": "whoosh",
+  "gainDb": -15,
+  "files": [
+   "whoosh/whoosh_pan.wav"
+  ]
+ },
+ "accent": {
+  "family": "texture",
+  "gainDb": -14,
+  "files": [
+   "textures/pops/tick_soft.wav"
+  ]
+ },
+ "insert_in": {
+  "family": "whoosh",
+  "gainDb": -13,
+  "files": [
+   "whoosh/whoosh_air.wav",
+   "whoosh/whoosh_soft.wav"
+  ]
+ },
+ "insert_pop": {
+  "family": "texture",
+  "gainDb": -12,
+  "files": [
+   "textures/ui/ui_click.wav",
+   "textures/pops/pop_soft_01.wav"
+  ]
+ },
+ "insert_out": {
+  "family": "whoosh",
+  "gainDb": -16,
+  "files": [
+   "whoosh/whoosh_swish_02.wav",
+   "whoosh/whoosh_swish_01.wav"
+  ]
+ }
+}

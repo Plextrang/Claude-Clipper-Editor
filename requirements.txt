@@ -1,0 +1,10 @@
+# Python 3.10+ (tested on 3.12). Installed into .venv by: python install.py
+yt-dlp[default]>=2025.10.0   # downloads (YouTube and most sites)
+faster-whisper>=1.1.0        # word-level transcription (models download to work/hf_cache on first setup)
+numpy>=1.26
+soundfile>=0.12
+opencv-python>=4.10          # face detection for the 9:16 reframe and the speaker-aware camera
+Pillow
+librosa                      # music audition only
+pypdfium2                    # style onboarding: render reference PDFs to images (work/scripts/source_pages.py)
+matplotlib                   # optional: waveform plots (work/scripts/waveplot.py)

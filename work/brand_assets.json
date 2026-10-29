@@ -1,0 +1,48 @@
+{
+ "_doc": "Real logos and UI glyphs for the scenes. work/scripts/fetch_brand_assets.py downloads them into remotion/public/brand/ and remotion/public/ui/ (git-ignored: third-party trademarks never enter this repo). Add entries here, or fetch one-offs with --si / --commons / --ui.",
+ "commons": {
+  "_doc": "Official full-colour logos from Wikimedia Commons: <file name in public/brand> -> <Commons file title>.",
+  "premiere.svg": "Adobe Premiere Pro CC icon.svg",
+  "after_effects.svg": "Adobe After Effects CC icon.svg",
+  "photoshop.svg": "Adobe Photoshop CC icon.svg",
+  "illustrator.svg": "Adobe Illustrator CC icon.svg",
+  "capcut_icon.svg": "Capcut-icon.svg",
+  "capcut_logo.svg": "CapCut logo.svg",
+  "youtube_icon.svg": "YouTube full-color icon (2024).svg",
+  "youtube_logo.svg": "YouTube Logo 2017.svg",
+  "instagram_icon.svg": "Instagram logo 2022.svg",
+  "instagram_glyph_gradient.svg": "Instagram Glyph Gradient RGB logo.svg",
+  "instagram_wordmark.svg": "Instagram 2022 wordmark.svg",
+  "tiktok_icon.svg": "Tiktok icon.svg",
+  "chatgpt.svg": "ChatGPT logo.svg",
+  "davinci_resolve.svg": "DaVinci Resolve 17 logo.svg"
+ },
+ "simple_icons": {
+  "_doc": "Monochrome brand glyphs from the simple-icons npm package (CC0; some brands such as Adobe, LinkedIn, Slack, Amazon and OpenAI are not in it: use commons for those), saved as si_<slug>.svg; their brand hex goes to public/brand/brand_colors.json. Slugs: https://simpleicons.org",
+  "slugs": ["youtube", "youtubeshorts", "youtubestudio", "instagram", "tiktok", "davinciresolve", "x", "facebook", "messenger",
+            "snapchat", "whatsapp", "telegram", "discord", "threads", "twitch", "spotify", "applemusic", "google",
+            "gmail", "googledrive", "googlecalendar", "notion", "figma", "zoom", "apple", "android", "stripe",
+            "shopify", "paypal", "netflix", "airbnb", "uber", "reddit", "pinterest", "patreon", "substack",
+            "calendly", "zapier", "hubspot", "mailchimp", "wordpress", "framer", "webflow", "blender", "unrealengine",
+            "anthropic", "claude", "perplexity", "googlegemini", "bitcoin", "ethereum", "visa", "mastercard"]
+ },
+ "material_symbols": {
+  "_doc": "Google Material Symbols Rounded (Apache-2.0; the glyph family YouTube and Android use), saved as public/ui/<name>.svg and <name>-fill.svg.",
+  "names": ["thumb_up", "thumb_down", "comment", "send", "more_vert", "more_horiz", "sort", "reply", "favorite", "notifications",
+            "search", "play_arrow", "pause", "skip_next", "skip_previous", "fast_forward", "fast_rewind", "replay", "content_cut",
+            "movie", "graphic_eq", "subtitles", "closed_caption", "keyboard", "share", "download", "upload", "home", "add",
+            "add_circle", "person", "group", "person_add", "mic", "videocam", "photo_camera", "image", "photo_library", "chat",
+            "chat_bubble", "forum", "mail", "call", "arrow_back", "arrow_forward", "arrow_upward", "arrow_downward",
+            "chevron_left", "chevron_right", "keyboard_arrow_down", "check", "check_circle", "close", "cancel", "settings", "bolt",
+            "trending_up", "trending_down", "visibility", "schedule", "calendar_month", "event", "timer", "alarm",
+            "music_note", "volume_up", "volume_off", "layers", "tune", "edit", "text_fields", "crop", "fullscreen",
+            "bookmark", "lock", "lock_open", "verified", "star", "info", "warning", "error", "help", "link", "attach_file",
+            "payments", "credit_card", "account_balance_wallet", "shopping_cart", "storefront", "sell", "monitoring",
+            "bar_chart", "analytics", "query_stats", "rocket_launch", "workspace_premium", "trophy", "school",
+            "lightbulb", "psychology", "smart_toy", "language", "public", "location_on", "mobile", "laptop_mac",
+            "desktop_windows", "headphones", "wifi", "battery_full", "signal_cellular_alt", "refresh", "sync", "delete",
+            "inventory_2", "folder", "description", "article", "dashboard", "grid_view", "list", "filter_list", "flag",
+            "local_fire_department", "celebration", "handshake", "work", "home_work", "real_estate_agent", "fitness_center",
+            "restaurant", "flight", "directions_car", "attach_money", "savings", "percent"]
+ }
+}

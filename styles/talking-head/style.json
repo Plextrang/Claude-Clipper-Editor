@@ -1,0 +1,77 @@
+{
+ "_doc": "Reel-kit settings for the talking-head style (read by work/scripts/reel_build.py). Pixel values are on the 1080x1920 frame.",
+ "kit": "reel",
+ "maxPause": 0.24,
+ "captions": {
+  "mode": "pop",
+  "upper": false,
+  "size": 64,
+  "weight": 700,
+  "font": "sans",
+  "stroke": 0,
+  "maxW": 880,
+  "y": 1300,
+  "yWithCard": 1580,
+  "accentScale": 1.3,
+  "active": false,
+  "maxWords": 5,
+  "maxChars": 26,
+  "maxDur": 1.6
+ },
+ "hook": {
+  "y": 230,
+  "boxed": false,
+  "upper": false,
+  "minSec": 2.5,
+  "maxSec": 4.0
+ },
+ "nameTag": {
+  "y": 1120,
+  "sec": 2.6,
+  "minShotSec": 1.8
+ },
+ "card": {
+  "enabled": false,
+  "_doc": "on-screen UI cards are off: these styles use full-screen inserts (B-roll, image wall, logo, number)",
+  "top": 980,
+  "minSec": 1.8,
+  "maxSec": 3.2
+ },
+ "slam": {
+  "enabled": true
+ },
+ "camera": {
+  "mode": "smooth",
+  "base": 1.0,
+  "openFrom": 1.12,
+  "spanSec": 4.5,
+  "levels": [
+   1.0,
+   1.07,
+   1.02,
+   1.1
+  ],
+  "holdBeforeInsert": 24,
+  "punch": 1.18,
+  "everySec": [
+   2.4,
+   3.8
+  ],
+  "pushPerSec": 0.012,
+  "_doc": "smooth: slow zooms that span several seconds (no punch-ins); the camera holds still before every full-screen moment"
+ },
+ "shade": {
+  "top": 1000,
+  "blur": 14,
+  "dark": 1.0
+ },
+ "progressBar": false,
+ "music": {
+  "default": "energetic",
+  "lufs": -18
+ },
+ "insert": {
+  "minSec": 1.3,
+  "maxSec": 4.5
+ }
+}
